@@ -24,3 +24,7 @@ export const getUserByUsername = async (username: string) => {
 
   return result;
 };
+
+export default {
+  getUserByUsername,
+};
